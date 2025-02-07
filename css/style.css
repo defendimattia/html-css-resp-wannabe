@@ -135,19 +135,19 @@ img {
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
     main .container {
         display: flex;
         flex-direction: column;
+        width: 80%;
     }
 
     .row {
         flex-direction: column;
     }
 
-    .row > .col,
-    h2 {
-        width: 90%;
+    .row > .col {
+        width: 100%;
     }
 
     p {
